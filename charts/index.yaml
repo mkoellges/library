@@ -2,8 +2,19 @@ apiVersion: v1
 entries:
   pgo:
   - apiVersion: v2
+    appVersion: 5.5.0
+    created: "2023-12-29T21:33:36.705972+01:00"
+    description: Installer for PGO, the open source Postgres Operator from Crunchy
+      Data
+    digest: 3eed13497b0ea05593528fb4b846c915c967a07b04322813f7b3b1bf549710f5
+    name: pgo
+    type: application
+    urls:
+    - pgo-5.5.0.tgz
+    version: 5.5.0
+  - apiVersion: v2
     appVersion: 5.3.2
-    created: "2023-09-23T12:40:10.142336+02:00"
+    created: "2023-12-29T21:33:36.702174+01:00"
     description: Installer for PGO, the open source Postgres Operator from Crunchy
       Data
     digest: 9e09fb184e789157ccff58f416ce20d501ab38ab8f28f8a5f0a5c5cde5718fc3
@@ -12,4 +23,4 @@ entries:
     urls:
     - pgo-5.3.2.tgz
     version: 5.3.2
-generated: "2023-09-23T12:40:10.13214+02:00"
+generated: "2023-12-29T21:33:36.696406+01:00"
